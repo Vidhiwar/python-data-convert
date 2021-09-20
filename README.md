@@ -3,19 +3,14 @@
                                                                                     
 DIRECTORY-TREE: {[
 
-    from_coco.py
-
-    from_json.py
+    from_coco.py: "Python:",
+    from_json.py: "Python:", 
     
     output: "Directory: Results are written",
-    
-    lib: "Directory: Contains Functions"[
-    
-    data: "Directory: contains the data",
+    lib: "Directory: Contains Functions",
+    data: "Directory: contains the data",]}
     
     
-    
-                                       
 HOW-TO-USE: {Installation-Train-Val:[
 
       Uno: "Make sure the required libraries (Torch, Nibabel, Tqdm, ... etc.,). are installed",
@@ -25,4 +20,3 @@ HOW-TO-USE: {Installation-Train-Val:[
 
 #  EOF
                      
-                    
