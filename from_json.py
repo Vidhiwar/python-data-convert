@@ -41,7 +41,7 @@ def dil2D(arr):
     return be
     
     
-def json2coco(json_dir):
+def json2mask(json_dir):
     for j in tqdm(os.listdir(json_dir)):
         with open(os.path.join(json_dir,j)) as j_file:
             data = json.load(j_file)
